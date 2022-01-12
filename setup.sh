@@ -13,4 +13,3 @@ rvm install ruby-2.6.6
 rvm use 2.6.6 --default
 bundle install
 sudo apt install nodejs -y
-rails s -p 3000 -b 0.0.0.0 -d
