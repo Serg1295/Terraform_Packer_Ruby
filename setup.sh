@@ -1,7 +1,5 @@
 #!/usr/bin/bash
 sleep 30
-cd /var/www && sudo chown -R ubuntu:ubuntu .
-sudo cp -R P161App /var/www/
 sudo apt-get update
 sudo apt-get install curl -y
 sudo apt install gnupg -y
@@ -9,7 +7,7 @@ sudo apt install awscli -y
 sudo apt install nodejs -y
 sudo apt-get install -y nginx
 sudo service nginx restart
-
+sudo cp -R P161App /var/www/
 
 # Install our PGP key and add HTTPS support for APT
 sudo apt-get install -y dirmngr gnupg
