@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 sleep 30
+sudo mkdir /var/www/P161App
 sudo mv P161App /var/www/P161App
 sudo apt-get update
 sudo apt-get install curl -y
