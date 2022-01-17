@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 sleep 30
-sudo mkdir /var/www/P161App
-sudo mv ./ /var/www/P161App
+sudo mv P161App/ /var/www/
 sudo apt-get update
 sudo apt-get install curl -y
 sudo apt install gnupg -y
@@ -40,7 +39,7 @@ rvm use 2.6.6 --default
 sudo apt-get install libmysqlclient-dev -y
 sudo apt install mysql-client -y
 sudo rm /etc/nginx/sites-enabled/default
-sudo mv /var/www/P161App/default /etc/nginx/sites-enabled/default
+sudo mv default /etc/nginx/sites-enabled/default
 
 cd /var/www/P161App && bundle install
 
