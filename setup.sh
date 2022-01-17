@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 sleep 30
-sudo cp P161App /var/www/
+sudo cp -R P161App /var/www/
 sudo apt-get update
 sudo apt-get install curl -y
 sudo apt install gnupg -y
