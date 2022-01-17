@@ -23,7 +23,7 @@
     {
       "type": "file",
       "source": "P161App/",
-      "destination": "/home/ubuntu"
+      "destination": "/home/ubuntu/P161App"
     },
     {
       "type": "shell",

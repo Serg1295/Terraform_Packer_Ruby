@@ -1,6 +1,9 @@
 #!/usr/bin/bash
 sleep 30
+sudo mv ./P161App /var/www
 sudo apt-get update
+sudo apt-get install -y nginx
+sudo service nginx restart
 sudo apt-get install curl -y
 sudo apt install gnupg -y
 sudo apt install awscli -y
