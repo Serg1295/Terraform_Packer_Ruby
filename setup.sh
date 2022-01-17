@@ -1,6 +1,7 @@
 #!/usr/bin/bash
 sleep 30
-su - ubuntu -c "sudo cp -R P161App /var/www/"
+sudo chown -R ubuntu:ubuntu /var/www
+sudo cp -R P161App /var/www/
 sudo apt-get update
 sudo apt-get install curl -y
 sudo apt install gnupg -y
