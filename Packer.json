@@ -22,7 +22,7 @@
   "provisioners": [
     {
       "type": "file",
-      "source": "/P161App",
+      "source": "./P161App",
       "destination": "/home/ubuntu"
     },
     {
