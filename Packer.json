@@ -28,7 +28,7 @@
     {
       "type": "file",
       "source": "default",
-      "destination": "/home/ubuntu"
+      "destination": "/home/ubuntu/default"
     },
     {
       "type": "shell",
