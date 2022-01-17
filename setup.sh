@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 sleep 30
-sudo chown -R ubuntu:ubuntu /var/www/
+cd /var/www && sudo chown -R ubuntu:ubuntu .
 sudo cp -R P161App /var/www/
 sudo apt-get update
 sudo apt-get install curl -y
