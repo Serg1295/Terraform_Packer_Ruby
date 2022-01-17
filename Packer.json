@@ -26,6 +26,11 @@
       "destination": "/home/ubuntu"
     },
     {
+      "type": "file",
+      "source": "default",
+      "destination": "/home/ubuntu"
+    },
+    {
       "type": "shell",
       "script": "setup.sh"
     }
