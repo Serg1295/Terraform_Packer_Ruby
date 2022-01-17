@@ -22,8 +22,8 @@
   "provisioners": [
     {
       "type": "file",
-      "source": "P161App/",
-      "destination": "/home/ubuntu/P161App"
+      "source": "P161App",
+      "destination": "/home/ubuntu"
     },
     {
       "type": "shell",
