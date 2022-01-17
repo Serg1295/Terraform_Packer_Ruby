@@ -42,10 +42,6 @@ sudo mv default /etc/nginx/sites-enabled/default
 
 cd /var/www/P161App && bundle install
 
-#cd /var/www/P161App && sudo chown -R ubuntu:ubuntu .
-#export EDITOR=vim
-#sudo rm /var/www/P161App/config/credentials.yml.enc
-#cd /var/www/P161App && rails credentials:edit
 cd /var/www/P161App && sudo chown -R www-data:www-data .
 sudo service nginx restart
 
