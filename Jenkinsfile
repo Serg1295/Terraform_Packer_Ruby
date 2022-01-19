@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage("Clean Workspace") {
-            steps {
-                cleanWs()
-            }
-        }
         stage("Terraform_Build") {
             steps{
                 sh '''
@@ -14,6 +9,11 @@ pipeline {
                     sleep 30
                     aws s3 cp ./manifest.json s3://sergo.manifest/Packer/manifest.json
                 '''
+            }
+        }
+        stage("Clean Workspace") {
+            steps {
+                cleanWs()
             }
         }
     }
